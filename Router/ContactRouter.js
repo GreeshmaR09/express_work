@@ -18,6 +18,6 @@ router.route("/:id").delete((req,res)=>{
     res.status(200).json({
         "message":`Deleted for ${req.params.id}`
     })
-})//same route anel chain chythe ezhuthammmmm
+})
 
 module.exports=router
